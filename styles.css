@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    background-color: white !important; 
+
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+a:hover{
+    color: blue !important;
+}
+
+#btoEnviar{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: auto;
+    border: none;
+    width: 90px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+#btoEnviar:hover{
+    background-color: white;
+    border: solid 1px blue;
+    color: blue;
+}
